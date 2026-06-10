@@ -1,4 +1,4 @@
-name: Train model in prod (PR comment)
+pull-requests: writename: Train model in prod (PR comment)
 
 on:
   issue_comment:
@@ -7,6 +7,7 @@ on:
 permissions:
   contents: read
   issues: write
+  pull-requests: write
 
 jobs:
   train-prod:
