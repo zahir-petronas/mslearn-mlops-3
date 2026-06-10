@@ -1,4 +1,4 @@
-pull-requests: writename: Train model in prod (PR comment)
+name: Train model in prod (PR comment)
 
 on:
   issue_comment:
